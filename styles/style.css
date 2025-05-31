@@ -94,20 +94,19 @@
   gap: 78px;
   justify-content: space-between;
   position: relative;
-  margin-top: -7px;
-  margin-bottom: -8px;
-  padding-bottom: 7px;
+  transform: translateY(-8px);
+  padding-bottom: 0;
 }
 
 .cover__description-text {
-font-weight: 400;
-color: #fff;
-word-spacing: 18px;
-white-space: nowrap;
-font-size: 22px;
-line-height: 28px;
-text-transform: uppercase;
-z-index: 1;
+  font-weight: 400;
+  color: #fff;
+  word-spacing: 18px;
+  white-space: nowrap;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  z-index: 1;
 }
 
 .aligned-text {
@@ -117,7 +116,7 @@ z-index: 1;
   margin-left: 0;
 }
 .aligned-text_left {
-margin-top: 0;
+  margin-top: 0;
 }
 
 .aligned-text_center {
@@ -128,8 +127,8 @@ margin-top: 0;
 
 .aligned-text_right {
   text-align: right;
-    margin-right: -29px;
-    margin-top: 36px;
+  margin-right: -29px;
+  margin-top: 36px;
 }
 
 .no-letter-spacing {
@@ -168,7 +167,7 @@ margin-top: 0;
 .lots {
   display: flex;
   flex-direction: column;
-  padding: 30px 24px 146px;
+  padding: 24px 24px 146px;
   width: 100%;
 }
 
@@ -254,7 +253,6 @@ margin-top: 0;
 .about {
   display: grid;
   grid-template-columns: 335px auto;
-  min-height: 595px;
   gap: 24px;
   padding: 35px 24px 180px;
 }
@@ -269,7 +267,8 @@ margin-top: 0;
   border-radius: 50%;
   padding: 35px;
   margin-left: 46px;
-  margin-top: -28px;
+  position: relative;
+  top: -28px;
 }
 
 .about__logo-image {
@@ -285,8 +284,8 @@ margin-top: 0;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 99px;
-  margin-top: -2px;
+  margin-bottom: 95px;
+  margin-top: 0;
   padding: 0px;
   margin-left: 0;
 }
@@ -347,6 +346,6 @@ margin-top: 0;
 .main ,
 .header, 
 .footer {
-max-width: 1100px;
-margin: 0 auto;
+  max-width: 1100px;
+  margin: 0 auto;
 }
